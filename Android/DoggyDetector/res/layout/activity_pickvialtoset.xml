@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/ibSet1"
+        android:layout_marginLeft="325dp"
+        android:textColor="#000000"
+        android:layout_marginTop="35dp"
+        android:onClick="onSetVialClick1"/>
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/ibSet2"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick2"
+        android:layout_marginLeft="395dp"
+        android:layout_marginTop="95dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="#000000"
+        android:id="@+id/ibSet3"
+        android:onClick="onSetVialClick3"
+        android:layout_marginLeft="445dp"
+        android:layout_marginTop="175dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textColor="#000000"
+        android:id="@+id/ibSet4"
+        android:onClick="onSetVialClick4"
+        android:layout_marginTop="255dp"
+        android:layout_alignLeft="@+id/ibSet2"
+        android:layout_alignStart="@+id/ibSet2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/ibSet5"
+        android:onClick="onSetVialClick5"
+        android:textColor="#000000"
+        android:layout_alignLeft="@+id/ibSet1"
+        android:layout_alignStart="@+id/ibSet1"
+        android:layout_marginTop="335dp"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/ibSet6"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick6"
+        android:clickable="true"
+        android:layout_marginTop="376dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/ibSet7"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick7"
+        android:layout_alignTop="@+id/ibSet5"
+        android:layout_alignLeft="@+id/ibSet11"
+        android:layout_alignStart="@+id/ibSet11"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/ibSet8"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick8"
+        android:singleLine="false"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@+id/ibSet4"
+        android:layout_alignLeft="@+id/ibSet10"
+        android:layout_alignStart="@+id/ibSet10" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/ibSet9"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick9"
+        android:layout_alignTop="@+id/ibSet3"
+        android:layout_toLeftOf="@+id/ibSet8"
+        android:layout_toStartOf="@+id/ibSet8" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/ibSet10"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick10"
+        android:layout_alignTop="@+id/ibSet2"
+        android:layout_marginLeft="130dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:id="@+id/ibSet11"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick11"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:id="@+id/ibSet12"
+        android:textColor="#000000"
+        android:onClick="onSetVialClick12"
+        android:layout_alignLeft="@+id/ibSet6"
+        android:layout_alignStart="@+id/ibSet6" />
+
+    <!--onSetVialClick11-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        android:id="@+id/textView3"
+        android:autoText="false"
+        android:background="#6699ff"
+        android:minWidth="200dp"
+        android:textSize="25dp"
+        android:layout_marginTop="93dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/ibSet6"
+        android:layout_toRightOf="@+id/ibSet5"
+        android:layout_toEndOf="@+id/ibSet5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Control"
+        android:id="@+id/textView10"
+        android:background="#669999"
+        android:minWidth="200dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odor Control"
+        android:id="@+id/textView11"
+        android:minWidth="200dp"
+        android:textSize="25dp"
+        android:background="#ff9966"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benign"
+        android:id="@+id/textView12"
+        android:minWidth="200dp"
+        android:textSize="25dp"
+        android:background="#00cc66"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malignant"
+        android:id="@+id/textView13"
+        android:minWidth="200dp"
+        android:textSize="25dp"
+        android:background="#ff5050"
+        android:textColor="#000000"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+</RelativeLayout>

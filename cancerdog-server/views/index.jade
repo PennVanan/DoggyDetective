@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{body}
+  form(method="post")
+    div URL:
+      input(type="text", name="url")
+    div Shortcut:
+      input(type="text", name="shortcut")
+    div
+      input(type="submit", value="Submit")

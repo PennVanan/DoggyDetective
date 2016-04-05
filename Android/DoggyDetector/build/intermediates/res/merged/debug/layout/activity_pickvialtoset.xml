@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibStop1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick1"
+                android:src="@drawable/btn_r1" />
+
+            <ImageButton
+                android:id="@+id/ibStop2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick2"
+                android:src="@drawable/btn_r2" />
+
+            <ImageButton
+                android:id="@+id/ibStop3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick3"
+                android:src="@drawable/btn_r3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibStop4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick4"
+                android:src="@drawable/btn_r4" />
+
+            <ImageButton
+                android:id="@+id/ibStop5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick5"
+                android:src="@drawable/btn_r5" />
+
+            <ImageButton
+                android:id="@+id/ibStop6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick6"
+                android:src="@drawable/btn_r6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibStop7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick7"
+                android:src="@drawable/btn_r7" />
+
+            <ImageButton
+                android:id="@+id/ibStop8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick8"
+                android:src="@drawable/btn_r8" />
+
+            <ImageButton
+                android:id="@+id/ibStop9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick9"
+                android:src="@drawable/btn_r9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.01"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibStop10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="onVialClick10"
+                android:background="#FFFFFF"
+                android:src="@drawable/btn_r10" />
+
+            <ImageButton
+                android:id="@+id/ibStop11"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick11"
+                android:src="@drawable/btn_r11" />
+
+            <ImageButton
+                android:id="@+id/ibStop12"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#FFFFFF"
+                android:onClick="onVialClick12"
+                android:src="@drawable/btn_r12" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/rsrinath/Desktop/Software_Engineering/29-Doggy-Detective-master/Android/DoggyDetector/res/layout/activity_pickvialtoset.xml -->

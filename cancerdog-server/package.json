@@ -1,0 +1,18 @@
+{
+  "name": "cis-350-cancer-dog",
+  "version": "0.0.1",
+  "main": "web.js",
+  "author": "greg-terrono",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.2",
+    "jade": "*",
+    "stylus": "*",
+    "mongodb": "*",
+    "logfmt": "~1.1.2",
+    "monk": "~0.8.1"
+  }
+}

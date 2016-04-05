@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:weightSum="1"
+    android:background="@drawable/cancer">
+
+    <TextView
+        android:id="@+id/BenignText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/penn_working_dog_center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:layout_weight="0.07"
+        android:textColorHighlight="#a76bc8" />
+
+    <TextView
+        android:id="@+id/DDText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/doggy_detector"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="75sp"
+        android:onClick="onSettingsNewButtonClick" />
+
+    <Button
+        android:id="@+id/startTrial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="250dp"
+        android:background="#D6D6D6"
+        android:onClick="onStartTrialClick"
+        android:text="@string/start_trial"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="50sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/SettingsButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:background="#D6D6D6"
+        android:onClick="onSettingsButtonClick"
+        android:text="@string/settings"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="50sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+</LinearLayout>

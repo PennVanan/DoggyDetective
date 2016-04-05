@@ -1,0 +1,379 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.testbuttons.MainActivity"
+    android:weightSum="1">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="538dp"
+        android:layout_height="621dp" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+        android:layout_weight="0.44">
+
+        <TextView
+            android:id="@+id/trialNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trial:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_above="@+id/LegendNC"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/NumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/trialNumberText"
+            android:layout_alignRight="@+id/ibSet8"
+            android:layout_alignEnd="@+id/ibSet8" />
+
+        <TextView
+            android:id="@+id/dogNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_below="@+id/LegendE"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/dNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_alignTop="@+id/dogNameText"
+            android:layout_toRightOf="@+id/ibSet7"
+            android:layout_toEndOf="@+id/ibSet7" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/ibSet1"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction1"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/ibSet2"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction2"
+            android:layout_marginLeft="395dp"
+            android:layout_marginTop="95dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/ibSet3"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction3"
+            android:layout_marginLeft="445dp"
+            android:layout_marginTop="175dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/ibSet4"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction4"
+            android:layout_marginTop="255dp"
+            android:layout_alignLeft="@+id/ibSet2"
+            android:layout_alignStart="@+id/ibSet2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/ibSet5"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction5"
+            android:layout_alignLeft="@+id/ibSet1"
+            android:layout_alignStart="@+id/ibSet1"
+            android:layout_marginTop="335dp"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/ibSet6"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction6"
+            android:clickable="true"
+            android:layout_marginTop="376dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/ibSet7"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction7"
+            android:layout_alignTop="@+id/ibSet5"
+            android:layout_alignLeft="@+id/ibSet11"
+            android:layout_alignStart="@+id/ibSet11"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/ibSet8"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction8"
+            android:singleLine="false"
+            android:layout_centerVertical="true"
+            android:layout_alignTop="@+id/ibSet4"
+            android:layout_alignLeft="@+id/ibSet10"
+            android:layout_alignStart="@+id/ibSet10" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:id="@+id/ibSet9"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction9"
+            android:layout_alignTop="@+id/ibSet3"
+            android:layout_marginLeft="25dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:id="@+id/ibSet10"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction10"
+            android:layout_alignTop="@+id/ibSet2"
+            android:layout_marginLeft="75dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:id="@+id/ibSet11"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction11"
+            android:layout_marginRight="41dp"
+            android:layout_marginEnd="41dp"
+            android:layout_alignTop="@+id/ibSet1"
+            android:layout_toLeftOf="@+id/ibSet12"
+            android:layout_toStartOf="@+id/ibSet12" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:id="@+id/ibSet12"
+            android:textColor="#000000"
+            android:onClick="onButtonClickSaveAction12"
+            android:layout_alignLeft="@+id/ibSet6"
+            android:layout_alignStart="@+id/ibSet6" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty"
+            android:background="#6699ff"
+            android:textColor="#000000"
+            android:id="@+id/LegendE"
+            android:minWidth="140dp"
+            android:textSize="20dp"
+            android:layout_above="@+id/LegendNC"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal Control"
+            android:background="#669999"
+            android:textColor="#000000"
+            android:minWidth="140dp"
+            android:textSize="20dp"
+            android:id="@+id/LegendNC"
+            android:layout_above="@+id/LegendOC"
+            android:layout_alignLeft="@+id/LegendE"
+            android:layout_alignStart="@+id/LegendE" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odor Control"
+            android:background="#ff9966"
+            android:textColor="#000000"
+            android:minWidth="140dp"
+            android:textSize="20dp"
+            android:id="@+id/LegendOC"
+            android:layout_above="@+id/LegendB"
+            android:layout_alignLeft="@+id/LegendNC"
+            android:layout_alignStart="@+id/LegendNC" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benign"
+            android:background="#00cc66"
+            android:textColor="#000000"
+            android:minWidth="140dp"
+            android:textSize="20dp"
+            android:id="@+id/LegendB"
+            android:layout_above="@+id/LegendM"
+            android:layout_alignLeft="@+id/LegendOC"
+            android:layout_alignStart="@+id/LegendOC" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malignant"
+            android:background="#ff5050"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:minWidth="140dp"
+            android:id="@+id/LegendM"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/LegendB"
+            android:layout_alignStart="@+id/LegendB" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave"
+            android:id="@+id/button"
+            android:background="#000066"
+            android:layout_alignLeft="@+id/trialNumberText"
+            android:layout_alignStart="@+id/trialNumberText"
+            android:layout_toLeftOf="@+id/ibSet8"
+            android:layout_below="@+id/LegendOC"
+            android:layout_alignRight="@+id/trialNumberText"
+            android:layout_alignEnd="@+id/trialNumberText"
+            android:onClick="onLeaveClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Trial Notes "
+            android:id="@+id/buttonTrialNotes"
+            android:layout_toRightOf="@+id/NumberText"
+            android:onClick="onTrialNotesClick"
+            android:layout_toLeftOf="@+id/ibSet6"
+            android:layout_toStartOf="@+id/ibSet6"
+            android:layout_alignParentBottom="true" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ibSave"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.17"
+            android:text="Finish Trials"
+            android:background= "#990000"
+            android:textColor="#000000"
+            android:onClick="onSaveClick"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/ibNext"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.20"
+            android:text="Next Trial"
+            android:textColor="#000000"
+            android:background="#009000"
+            android:onClick="onNextClick"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

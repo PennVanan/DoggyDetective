@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="#D6D6D6"
+        android:text="@string/confirm_settings"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp" >
+
+        <TextView
+            android:id="@+id/control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/control"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/benign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/benign"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/malignant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/malignant"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ControlNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/BenignNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/MalignantNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp" >
+
+            <TextView
+                android:id="@+id/tester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/tester"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0033CC"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/TesterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/whiteSpaceFiller"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/handler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/handler"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0033CC"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/HandlerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/whiteSpaceFiller"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/recorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/recorder"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0033CC"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/RecorderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/whiteSpaceFiller"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp" >
+
+        <TextView
+            android:id="@+id/dogTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:text="Dog:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/temp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/humidity"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/dogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tempDeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="160dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/HumidPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginStart="160dp"
+            android:text="@string/whiteSpaceFiller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water bowl"
+            android:id="@+id/checkBoxWater_bowl"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:checked="true"
+            android:editable="false"
+            android:enabled="false"
+            android:clickable="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barrier"
+            android:id="@+id/checkBoxBarrier"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="25sp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:checked="true"
+            android:editable="false"
+            android:enabled="false"
+            android:clickable="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen"
+            android:id="@+id/checkBoxScreen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0033CC"
+            android:textSize="25sp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="15dp"
+            android:checked="true"
+            android:editable="false"
+            android:enabled="false"
+            android:clickable="false" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/ChangeSettings"
+            android:layout_width="249dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.00"
+            android:background="#ff6666"
+            android:onClick="onChangeSettingsButtonClick"
+            android:text="@string/change_settings"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="40sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/ConfirmSettings"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.16"
+            android:background="#00cc66"
+            android:onClick="onConfirmButtonClick"
+            android:text="@string/confirm"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="40sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
